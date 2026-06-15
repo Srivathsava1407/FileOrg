@@ -1,0 +1,52 @@
+{
+  "watch_folder": "~/Downloads",
+  "rules": [
+    {
+      "name": "Images",
+      "extensions": [".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".bmp", ".tiff"],
+      "destination": "Images"
+    },
+    {
+      "name": "Documents",
+      "extensions": [".pdf", ".doc", ".docx", ".txt", ".odt", ".rtf", ".md"],
+      "destination": "Documents"
+    },
+    {
+      "name": "Spreadsheets",
+      "extensions": [".xls", ".xlsx", ".csv", ".ods"],
+      "destination": "Spreadsheets"
+    },
+    {
+      "name": "Presentations",
+      "extensions": [".ppt", ".pptx", ".odp"],
+      "destination": "Presentations"
+    },
+    {
+      "name": "Videos",
+      "extensions": [".mp4", ".mov", ".avi", ".mkv", ".wmv", ".flv", ".webm"],
+      "destination": "Videos"
+    },
+    {
+      "name": "Audio",
+      "extensions": [".mp3", ".wav", ".flac", ".aac", ".ogg", ".m4a"],
+      "destination": "Audio"
+    },
+    {
+      "name": "Archives",
+      "extensions": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2"],
+      "destination": "Archives"
+    },
+    {
+      "name": "Code",
+      "extensions": [".py", ".js", ".ts", ".html", ".css", ".java", ".cpp", ".c", ".json", ".sql"],
+      "destination": "Code"
+    },
+    {
+      "name": "Installers",
+      "extensions": [".exe", ".msi", ".dmg", ".pkg", ".deb", ".rpm"],
+      "destination": "Installers"
+    }
+  ],
+  "fallback_folder": "Unsorted",
+  "log_file": "fileorg.log"
+}
